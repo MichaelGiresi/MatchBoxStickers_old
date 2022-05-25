@@ -1,0 +1,39 @@
+.nav-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 1440px;
+  margin: 0 auto 0 auto;
+}
+
+.nav-about {
+  margin: 20px 0 15px 0;
+  font-family: 'Roboto';
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.nav-img {
+  margin: 15px 0 15px 0;
+  cursor: pointer;
+}
+
+.nav-account-cart-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 20px 0 15px 0;
+}
+
+.nav-account {
+  font-family: 'Roboto';
+  cursor: pointer;
+  font-weight: 500;
+}
+/*# sourceMappingURL=nav.css.map */

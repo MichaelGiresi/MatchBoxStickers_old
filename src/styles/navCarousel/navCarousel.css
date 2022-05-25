@@ -1,0 +1,14 @@
+.nav-carousel {
+  height: 60px;
+  background-color: black;
+  max-width: 1440px;
+  margin: 0 auto 0 auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+}
+/*# sourceMappingURL=navCarousel.css.map */

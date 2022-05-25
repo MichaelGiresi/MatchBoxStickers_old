@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,aAAa,CAAC;EACV,MAAM,EAAE,IAAI;EACZ,gBAAgB,EAAE,KAAK;EACvB,SAAS,EAAE,MAAM;EACjB,MAAM,EAAE,aAAa;EACrB,eAAe,EAAE,aAAa;EAC9B,OAAO,EAAE,IAAI;EACb,KAAK,EAAE,KAAK;CACf",
+    "sources": [
+        "navCarousel.scss"
+    ],
+    "names": [],
+    "file": "navCarousel.css"
+}
