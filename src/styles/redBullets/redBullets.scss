@@ -1,0 +1,35 @@
+.redBullets-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1000px;
+    // border: black solid 1px;
+    margin: 0 auto 0 auto;
+}
+
+.redBullets-redCircle {
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 10px;
+    margin: auto 0 auto 0;
+}
+
+.redBullets-container1 {
+    display: flex;
+    flex-direction: row;
+    // border: black 1px solid;
+
+}
+.redBullets-container2 {
+    display: flex;
+    flex-direction: row;
+    // border: black 1px solid;
+
+}
+.redBullets-container3 {
+    display: flex;
+    flex-direction: row;
+    // border: black 1px solid;
+
+}

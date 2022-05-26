@@ -5,19 +5,20 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  max-width: 1440px;
+  max-width: 1920px;
   margin: 0 auto 0 auto;
+  height: 40px;
 }
 
 .nav-about {
-  margin: 20px 0 15px 0;
+  margin: 10px 0 0 120px;
   font-family: 'Roboto';
   cursor: pointer;
   font-weight: 500;
 }
 
 .nav-img {
-  margin: 15px 0 15px 0;
+  margin: 12px 0 0 0;
   cursor: pointer;
 }
 
@@ -28,7 +29,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin: 20px 0 15px 0;
+  margin: 10px 120px 0 0;
 }
 
 .nav-account {
