@@ -1,0 +1,51 @@
+.footer {
+  background-color: #e6d7b0;
+  z-index: -1;
+}
+
+.footer-container {
+  background-color: black;
+  width: 100%;
+  height: 300px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.footer-mbs-container {
+  width: 100px;
+  height: 100px;
+  margin-top: 60px;
+}
+
+.footer-shop-container {
+  width: 100px;
+  height: 100px;
+  margin-top: 60px;
+  color: #e6d7b0;
+}
+
+.footer-about-container {
+  width: 100px;
+  height: 100px;
+  margin-top: 60px;
+  color: #e6d7b0;
+}
+
+.footer-social-container {
+  width: 100px;
+  height: 100px;
+  margin-top: 60px;
+  color: #e6d7b0;
+}
+
+.footer-mbs {
+  -webkit-filter: invert(96%) sepia(7%) saturate(1412%) hue-rotate(337deg) brightness(97%) contrast(86%);
+          filter: invert(96%) sepia(7%) saturate(1412%) hue-rotate(337deg) brightness(97%) contrast(86%);
+}
+/*# sourceMappingURL=footer.css.map */

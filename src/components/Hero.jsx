@@ -5,12 +5,12 @@ const Hero = () => {
   return (
     <div className='hero'>
       <div className='hero-button-container'>
-        <button className='hero-button-1'>1</button>
-        <button className='hero-button-2'>2</button>
-        <button className='hero-button-3'>3</button>
-        <button className='hero-button-4'>4</button>
-        <button className='hero-button-5'>5</button>
-        <button className='hero-button-6'>6</button>
+        <button className='hero-button-1 border-select'></button>
+        <button className='hero-button-2'></button>
+        <button className='hero-button-3'></button>
+        <button className='hero-button-4'></button>
+        <button className='hero-button-5'></button>
+        <button className='hero-button-6'></button>
       </div>
       <div className='hero-video-container'>
         <video id="videoid"
@@ -29,7 +29,7 @@ const Hero = () => {
         <br/>
         <button id='hero-button'>ADD TO CART $12.00</button>
         <div className="remaining__remainingProgressBar">                
-                    <h6 id="remaining">20 of 100 REMAINING</h6>
+                    <h6 id="remaining">21 of 100 REMAINING</h6>
                     <div id="remainingProgressBar"></div>
                     <div id="remainingProgressBarStatus"></div>
                 </div>
