@@ -22,15 +22,12 @@
   height: 330px;
 }
 
-.border-select {
-  border: 4px red solid;
-}
-
 .hero-button-1 {
   width: 50px;
   height: 50px;
   border-radius: 8px;
   background-color: rgba(230, 215, 176, 0.35);
+  border: 1px gray solid;
 }
 
 .hero-button-2 {
@@ -38,7 +35,7 @@
   height: 50px;
   border-radius: 8px;
   background-color: rgba(230, 215, 176, 0.35);
-  border-width: 1px;
+  border: 1px gray solid;
 }
 
 .hero-button-3 {
@@ -47,6 +44,7 @@
   border-radius: 8px;
   background-color: rgba(230, 215, 176, 0.35);
   border-width: 1px;
+  border: 1px gray solid;
 }
 
 .hero-button-4 {
@@ -55,6 +53,7 @@
   border-radius: 8px;
   background-color: rgba(230, 215, 176, 0.35);
   border-width: 1px;
+  border: 1px gray solid;
 }
 
 .hero-button-5 {
@@ -63,6 +62,7 @@
   border-radius: 8px;
   background-color: rgba(230, 215, 176, 0.35);
   border-width: 1px;
+  border: 1px gray solid;
 }
 
 .hero-button-6 {
@@ -71,6 +71,11 @@
   border-radius: 8px;
   background-color: rgba(230, 215, 176, 0.35);
   border-width: 1px;
+  border: 1px gray solid;
+}
+
+.border-select {
+  border: 4px red solid;
 }
 
 .hero-video-container {
