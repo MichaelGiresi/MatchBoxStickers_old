@@ -6,6 +6,10 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -13,18 +17,18 @@
   color: #ffffff;
 }
 
-#nav-carousel-btn-left {
+#carousel__button--prev {
   width: 60px;
   height: 60px;
   font-size: 30px;
-  margin-left: 120px;
+  margin-left: 100px;
   border: none;
   background-color: black;
   color: #e6d7b0;
   cursor: pointer;
 }
 
-#nav-carousel-btn-right {
+#carousel__button--next {
   width: 60px;
   height: 60px;
   font-size: 30px;
@@ -38,23 +42,30 @@
 .nav-carousel-slides-container {
   width: 94%;
   background-color: black;
-  border: green 1px solid;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
   margin: 0 auto 0 auto;
 }
 
-.nav-carousel-slide1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+.nav-carousel-slide1-title {
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+
+.nav-carousel-slide1 p {
+  margin-top: 3px;
 }
 
 .nav-carousel-slide2 {
@@ -73,5 +84,15 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.carousel__item--hidden {
+  display: none;
+}
+
+.carousel__item--visible {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 /*# sourceMappingURL=navCarousel.css.map */

@@ -19,7 +19,7 @@
 .mbsmerch-tiles-container {
   width: 82%;
   height: 600px;
-  margin-bottom: 100px;
+  margin-bottom: 130px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -80,6 +80,7 @@
   color: #e6d7b0;
   font-size: 130%;
   border-radius: 10px;
+  border-width: 0px;
   cursor: pointer;
 }
 
@@ -128,5 +129,10 @@
   background-color: #e6d7b0;
   opacity: 0.35;
   border-radius: 10px;
+}
+
+.mbsmerch-title {
+  margin-bottom: 90px;
+  font-size: 50px;
 }
 /*# sourceMappingURL=mbsMerch.css.map */

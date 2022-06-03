@@ -18,7 +18,6 @@
 }
 
 .previousdrops-text-container {
-  border: green 1px solid;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -32,6 +31,18 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-bottom: 200px;
+}
+
+.previousdrops-text-container h4 {
+  font-size: 35px;
+  margin-bottom: 0px;
+}
+
+.previousdrops-text-container h6 {
+  font-size: 18px;
+  margin-top: 7px;
+  margin-bottom: 0px;
 }
 
 .previousdrops-carousel {
@@ -84,13 +95,20 @@
   width: 32%;
   height: 100%;
   background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   border-radius: 15px;
 }
 
 .previousdrops-carousel-slide1-image-container {
   background-color: rgba(230, 215, 176, 0.35);
   width: 100%;
-  height: 80%;
+  height: 65%;
   border-radius: 15px;
 }
 
@@ -106,9 +124,6 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }
 
 .previousdrops-carousel-slide2-image-container {
@@ -121,7 +136,6 @@
 .previousdrops-carousel-slide2-title-button-remaining-container {
   height: 30%;
   width: 100%;
-  border: 1px solid black;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -137,6 +151,15 @@
           flex-direction: column;
 }
 
+.previousdrops-carousel-slide2-title-button-remaining-container button {
+  width: 55%;
+  height: 50px;
+  border-radius: 8px;
+  border-width: 0px;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #000;
+}
+
 .previousdrops-carousel-slide3-container {
   width: 32%;
   height: 100%;
@@ -147,8 +170,17 @@
 .previousdrops-carousel-slide3-image-container {
   background-color: rgba(230, 215, 176, 0.35);
   width: 100%;
-  height: 80%;
+  height: 65%;
   border-radius: 15px;
+}
+
+.previousdrops-carousel-slide3-title-button-remaining-container button {
+  width: 55%;
+  height: 50px;
+  border-radius: 8px;
+  border-width: 0px;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #000;
 }
 
 .previousdrops-carousel-nav-button-container {
@@ -167,6 +199,9 @@
   font-size: 30px;
   background-color: black;
   color: #e6d7b0;
+  border-radius: 6px;
+  border-width: 0px;
+  cursor: pointer;
 }
 
 #previousdrops-carousel-nav-button-right {
@@ -176,6 +211,9 @@
   margin-left: 10px;
   background-color: black;
   color: #e6d7b0;
+  border-radius: 6px;
+  border-width: 0px;
+  cursor: pointer;
 }
 
 .previousdrops-carousel-nav-line {
@@ -196,5 +234,46 @@
   height: 8px;
   background-color: black;
   position: absolute;
+}
+
+.previousdrops-carousel-slide1-title-button-remaining-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.previousdrops-carousel-slide3-title-button-remaining-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.previousdrops-carousel-slide1-title-button-remaining-container button {
+  width: 55%;
+  height: 50px;
+  border-radius: 8px;
+  border-width: 0px;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #000;
 }
 /*# sourceMappingURL=previousDrops.css.map */

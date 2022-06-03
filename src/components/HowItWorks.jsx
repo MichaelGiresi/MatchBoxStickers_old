@@ -3,8 +3,8 @@ import howItWorks from '../styles/howItWorks/howItWorks.css'
 const HowItWorks = () => {
   return (
     <div className='howItWorks-container'>
-      <h6>HOW IT WORKS</h6>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam deleniti, voluptatibus officiis eius corporis quas! Doloribus voluptatum itaque eum laborum!</p>
+      <h6 className='howItWorks-title'>HOW IT WORKS</h6>
+      <p className='howItWorks-title-paragraph'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam deleniti, voluptatibus officiis eius corporis quas! Doloribus voluptatum itaque eum laborum!</p>
       <div className='howItWorks-image-info-container'>
         <div className='howItWorks-info-container1'>
         <div className='howItWorks-image1'></div>
@@ -31,11 +31,11 @@ const HowItWorks = () => {
         <div className='howItWorks-getdropalerts-img-container'></div>
         <div className='hotItWorks-getdropalerts-text-input-container'>
           <div className='howItWorks-getdropalerts-text-input-inner-container'>
-          <h6>GET DROP ALERTS</h6>
-          <p>WE PROMISE NOT TO SPAM YOU.</p>
+          <h5>GET DROP ALERTS</h5>
+          <h6>WE PROMISE NOT TO SPAM YOU.</h6>
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam, iure molestiae! Et officia laboriosam fugit impedit officiis, ipsum eum quisquam.</p>
-          <input></input>
-          <button>SUBSCRIBE</button>
+          <input className='howItWorks-getdropalerts-input' placeholder='    YOUR EMAIL GOES HERE'></input>
+          <button className='howItWorks-getdropalerts-input-button'>SUBSCRIBE</button>
           </div>
         </div>
 

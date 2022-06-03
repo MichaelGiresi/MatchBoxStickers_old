@@ -8,7 +8,7 @@
 .howItWorks-image-info-container{
     display: flex;
     justify-content: space-around;
-    margin-bottom: 150px;
+    margin-bottom: 300px;
     // border: green 2px solid;
     
 }  
@@ -74,7 +74,7 @@
 }
 
 .howItWorks-getdropalerts-img-container{
-    background-color: blue;
+    // background-color: blue;
     width: 50%;
     height: 100%;    
 }
@@ -92,5 +92,65 @@
 
 .howItWorks-getdropalerts-text-input-inner-container {
     // border: green 1px solid;
-    width: 50%;
+    width: 80%;
+    // border: 1px  green solid;
+}
+
+.howItWorks-getdropalerts-input {
+    background-color: #e42e33;
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 68%;
+    height: 44px;
+    color: #e6d7b0;
+}
+
+::placeholder {
+    color: #fff;
+    opacity: .75;
+}
+
+.howItWorks-getdropalerts-input-button{
+    height: 50px;
+    width: 28%;
+    background-color: black;
+    color: #e6d7b0;
+    border-radius: 8px;
+    box-shadow: none;
+    border-width: 0px;
+    cursor: pointer;
+    margin-left: 2%;
+}
+
+.howItWorks-title-paragraph{
+    text-align: center;
+    // background-color: green;
+    width: 33%;
+    margin: 0 auto 5% auto;
+}
+
+.howItWorks-title {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.howItWorks-getdropalerts-text-input-inner-container p {
+    width: 85%;
+    // margin-top: 0px;
+    margin-bottom: 60px;
+    color: #e6d7b0;
+    line-height: 1.7;
+}
+
+.howItWorks-getdropalerts-text-input-inner-container h6 {
+    color: #e6d7b0;
+    font-size: 32px;
+    margin-bottom: 40px;
+    margin-top: 0px;
+}
+
+.howItWorks-getdropalerts-text-input-inner-container h5 {
+    color: #e6d7b0;
+    font-size: 60px;
+    margin: 0 0 20px 0;
 }

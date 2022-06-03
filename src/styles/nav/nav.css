@@ -8,10 +8,11 @@
   max-width: 1920px;
   margin: 0 auto 0 auto;
   height: 40px;
+  width: 100%;
 }
 
 .nav-about {
-  margin: 10px 0 0 120px;
+  margin: 10px 0 0 140px;
   font-family: 'Roboto';
   cursor: pointer;
   font-weight: 500;
@@ -29,7 +30,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin: 10px 120px 0 0;
+  margin: 10px 140px 0 0;
 }
 
 .nav-account {
