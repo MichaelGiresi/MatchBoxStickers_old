@@ -13,7 +13,7 @@
     width: 82%;
     height: 600px;
     
-    margin-bottom: 100px;
+    margin-bottom: 130px;
     display: flex;
 }
 
@@ -59,6 +59,7 @@
     color: rgba(230, 215, 176, 1);
     font-size: 130%;
     border-radius: 10px;
+    border-width: 0px;
     cursor: pointer;
     
 }
@@ -109,3 +110,7 @@
     
 }
 
+.mbsmerch-title{
+    margin-bottom: 90px;
+    font-size: 50px;
+}

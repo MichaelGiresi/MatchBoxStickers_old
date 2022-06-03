@@ -14,24 +14,26 @@
     height: 60px;
     margin: 0 auto 0 auto;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     width: 100%;
     color: #ffffff;
+    // border: 1px green solid;
 
 }
 
-#nav-carousel-btn-left {
+#carousel__button--prev {
     width: 60px;
     height: 60px;
     font-size: 30px;
-    margin-left: 120px;
+    margin-left: 100px;
     border: none;
     background-color: black;
     color: #e6d7b0;
     cursor: pointer;
 }
 
-#nav-carousel-btn-right {
+#carousel__button--next {
     width: 60px;
     height: 60px;
     font-size: 30px;
@@ -45,22 +47,26 @@
 .nav-carousel-slides-container{
     width: 94%;
     background-color: black;
-    border: green 1px solid;
+    // border: green 1px solid;
     display: flex;
-    // flex-direction: column;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    text-align: center;
     margin: 0 auto 0 auto;
     
 }
 
+.nav-carousel-slide1-title {
+    margin-top: 15px;
+    margin-bottom: 0px;
 
-.nav-carousel-slide1 {
-    // border: #e6d7b0 1px solid;
-    display: flex;
-    justify-content: center;
-    // margin-top: 0;
-    // margin-bottom: 0;
 }
+.nav-carousel-slide1 p {
+    margin-top: 3px;
+}
+
+
 .nav-carousel-slide2 {
     display: none;
     justify-content: center;
@@ -74,3 +80,10 @@
     // margin-top: 0;
     // margin-bottom: 0;
 }
+.carousel__item--hidden {
+    display: none;
+  }
+
+.carousel__item--visible {
+    display: flex;
+  }

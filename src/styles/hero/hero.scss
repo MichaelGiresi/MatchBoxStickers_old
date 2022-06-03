@@ -1,7 +1,12 @@
 .hero {
     display: flex;
-    background-color: rgba(230, 215, 176, .35);
     justify-content: space-around;
+    background-color: rgba(230, 215, 176, .35);
+    // background-image: url(../../assets/background.png);
+    // background-size: 100%;
+    // position:absolute; 
+    background-size: calc(50 * var(--scale)) auto;
+    margin-bottom: 9px;
     // opacity: .25;
 }
 
@@ -22,7 +27,8 @@
     border-radius: 8px;
     background-color: rgba(230, 215, 176, .35);
     // border-width: 1px;
-    border: 1px gray solid
+    border: 1px gray solid;
+    cursor: pointer;
 }
 .hero-button-2 {
     width: 50px;
@@ -30,7 +36,8 @@
     border-radius: 8px;
     background-color: rgba(230, 215, 176, .35);
     // border-width: 1px;
-    border: 1px gray solid
+    border: 1px gray solid;
+    cursor: pointer;
     
 }
 .hero-button-3 {
@@ -39,7 +46,8 @@
     border-radius: 8px;
     background-color: rgba(230, 215, 176, .35);
     border-width: 1px;
-    border: 1px gray solid
+    border: 1px gray solid;
+    cursor: pointer;
 }
 .hero-button-4 {
     width: 50px;
@@ -47,7 +55,8 @@
     border-radius: 8px;
     background-color: rgba(230, 215, 176, .35);
     border-width: 1px;
-    border: 1px gray solid
+    border: 1px gray solid;
+    cursor: pointer;
 }
 .hero-button-5 {
     width: 50px;
@@ -55,7 +64,8 @@
     border-radius: 8px;
     background-color: rgba(230, 215, 176, .35);
     border-width: 1px;
-    border: 1px gray solid
+    border: 1px gray solid;
+    cursor: pointer;
 }
 .hero-button-6 {
     width: 50px;
@@ -63,7 +73,8 @@
     border-radius: 8px;
     background-color: rgba(230, 215, 176, .35);
     border-width: 1px;
-    border: 1px gray solid
+    border: 1px gray solid;
+    cursor: pointer;
 }
 
 .border-select {
@@ -93,7 +104,8 @@
     width: 250px;
     border-radius: 10px;
     background-color: #e6d7b0;
-    border: 1px black solid;
+    border: none;
+    border-width: 0px;
 }
 
 #remaining {

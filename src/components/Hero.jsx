@@ -1,25 +1,20 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import hero from '../styles/hero/hero.css'
-import BigSur from '../assets/BigSur.mp4'
+// import BigSur from '../assets/BigSur.mp4'
+import HeroVideoButtons from '../scripts/HeroVideoButtons'
 const Hero = () => {
+
   return (
     <div className='hero'>
-      <div className='hero-button-container'>
-        <button className='hero-button-1 border-select'></button>
-        <button className='hero-button-2'></button>
-        <button className='hero-button-3'></button>
-        <button className='hero-button-4'></button>
-        <button className='hero-button-5'></button>
-        <button className='hero-button-6'></button>
-      </div>
-      <div className='hero-video-container'>
+        <HeroVideoButtons/>
+      {/* <div className='hero-video-container'>
         <video id="videoid"
                     controls 
                     src={BigSur}
                     autoPlay 
                     muted
                     loop></video>
-      </div>
+      </div> */}
       <div className='hero-drop-info-container'>
         <div>DROP #1</div>
         <h1>FRUIT ON FURNITURE</h1>
@@ -45,3 +40,11 @@ const Hero = () => {
 }
 
 export default Hero
+{/* <div className='hero-button-container'>
+  <button className='hero-button-1 border-select'></button>
+  <button className='hero-button-2'></button>
+  <button className='hero-button-3'></button>
+  <button className='hero-button-4'></button>
+  <button className='hero-button-5'></button>
+  <button className='hero-button-6'></button>
+</div> */}

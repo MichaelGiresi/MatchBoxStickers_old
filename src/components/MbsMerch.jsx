@@ -4,7 +4,7 @@ const MbsMerch = () => {
   return (
     <div>
       <div className="mbsmerch-container">
-        <h1>MATCHBOX STICKER MERCH</h1>
+        <h1 className='mbsmerch-title'>MATCHBOX STICKER MERCH</h1>
         <div className="mbsmerch-tiles-container">
           <div className="mbsmerch-tiles-box-container1">
             <div className="mbsmerch-box1">

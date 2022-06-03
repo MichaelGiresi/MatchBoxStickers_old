@@ -3,10 +3,11 @@ import './App.css';
 import Nav from './components/Nav';
 import PreviousDrops from './components/PreviousDrops';
 import Hero from './components/Hero'
-import MBSMerch from './components/MBSMerch';
+import MbsMerch from './components/MbsMerch';
 import HowItWorks from './components/HowItWorks';
 import Footer from './components/Footer';
-import Carousel from './components/Carousel';
+import NavCarousel from './components/NavCarousel';
+import RedBullets from './components/RedBullets';
 
 
 
@@ -14,10 +15,11 @@ function App() {
   return (
     <div className='app'>
       <Nav/>
-      <Carousel/>
+      <NavCarousel/>
       <Hero/>
+      <RedBullets/>
       <PreviousDrops/>
-      <MBSMerch/>
+      <MbsMerch/>
       <HowItWorks/>
       <Footer/>
     </div>

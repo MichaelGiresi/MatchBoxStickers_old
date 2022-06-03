@@ -2,9 +2,11 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: rgba(230, 215, 176, 0.35);
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  background-color: rgba(230, 215, 176, 0.35);
+  background-size: calc(50 * var(--scale)) auto;
+  margin-bottom: 9px;
 }
 
 .hero-button-container {
@@ -28,6 +30,7 @@
   border-radius: 8px;
   background-color: rgba(230, 215, 176, 0.35);
   border: 1px gray solid;
+  cursor: pointer;
 }
 
 .hero-button-2 {
@@ -36,6 +39,7 @@
   border-radius: 8px;
   background-color: rgba(230, 215, 176, 0.35);
   border: 1px gray solid;
+  cursor: pointer;
 }
 
 .hero-button-3 {
@@ -45,6 +49,7 @@
   background-color: rgba(230, 215, 176, 0.35);
   border-width: 1px;
   border: 1px gray solid;
+  cursor: pointer;
 }
 
 .hero-button-4 {
@@ -54,6 +59,7 @@
   background-color: rgba(230, 215, 176, 0.35);
   border-width: 1px;
   border: 1px gray solid;
+  cursor: pointer;
 }
 
 .hero-button-5 {
@@ -63,6 +69,7 @@
   background-color: rgba(230, 215, 176, 0.35);
   border-width: 1px;
   border: 1px gray solid;
+  cursor: pointer;
 }
 
 .hero-button-6 {
@@ -72,6 +79,7 @@
   background-color: rgba(230, 215, 176, 0.35);
   border-width: 1px;
   border: 1px gray solid;
+  cursor: pointer;
 }
 
 .border-select {
@@ -106,7 +114,8 @@
   width: 250px;
   border-radius: 10px;
   background-color: #e6d7b0;
-  border: 1px black solid;
+  border: none;
+  border-width: 0px;
 }
 
 #remaining {

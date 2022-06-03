@@ -12,6 +12,11 @@ const PreviousDrops = () => {
         <div className='previousdrops-carousel-slides-container'>
           <div className='previousdrops-carousel-slide1-container'>
             <div className="previousdrops-carousel-slide1-image-container"></div>
+            <div className="previousdrops-carousel-slide1-title-button-remaining-container">
+              <h6>FRUIT ON FURNITURE</h6>
+              <button>SOLD OUT</button>
+              <p>0 of 100 REMAINING</p>
+            </div>
           </div>
           <div className='previousdrops-carousel-slide2-container'>
             <div className="previousdrops-carousel-slide2-image-container"></div>
@@ -22,7 +27,14 @@ const PreviousDrops = () => {
             </div>
           </div>
           <div className='previousdrops-carousel-slide3-container'>
-            <div className="previousdrops-carousel-slide3-image-container"></div>
+            <div className="previousdrops-carousel-slide3-image-container">
+               
+            </div>
+            <div className="previousdrops-carousel-slide3-title-button-remaining-container">
+              <h6>FRUIT ON FURNITURE</h6>
+              <button>SOLD OUT</button>
+              <p>0 of 100 REMAINING</p>
+            </div>
           </div>
         </div>
         <div className='previousdrops-carousel-nav-container'>

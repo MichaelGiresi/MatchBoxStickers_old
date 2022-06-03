@@ -17,32 +17,34 @@
 }
 
 .footer-mbs-container {
-    width: 100px;
-    height: 100px;
+    // width: 100px;
+    // height: 100px;
     // background-color: white;
 
     margin-top: 60px;
 }
 
 .footer-shop-container {
-    width: 100px;
-    height: 100px;
+    // width: 100px;
+    // height: 100px;
     // background-color: blue;
     margin-top: 60px;
     color: #e6d7b0;
+    line-height: 2;
 }
 
 .footer-about-container {
-    width: 100px;
-    height: 100px;
+    // width: 170px;
+    // height: 100px;
     // background-color: green;
     margin-top: 60px;
     color: #e6d7b0;
+    line-height: 2;
 }
 
 .footer-social-container {
-    width: 100px;
-    height: 100px;
+    // width: 100px;
+    // height: 100px;
     // background-color: orange;
     margin-top: 60px;
     color: #e6d7b0;
@@ -51,5 +53,33 @@
 .footer-mbs {
     // background-color: black;
     filter: invert(96%) sepia(7%) saturate(1412%) hue-rotate(337deg) brightness(97%) contrast(86%);
+    margin-top: 9px;
 
+}
+
+.shop-title {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.about-title {
+    color: white;
+    margin-bottom: 20px;
+}
+.insta {
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.twitter {
+    font-size: 30px;
+    margin-right: 10px;
+}
+.facebook {
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.google {
+    font-size: 30px;
 }
