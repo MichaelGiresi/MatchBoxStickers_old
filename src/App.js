@@ -18,7 +18,7 @@ function App() {
       <NavCarousel/>
       <Hero/>
       <RedBullets/>
-      <PreviousDrops/>
+      {/* <PreviousDrops/> */}
       <MbsMerch/>
       <HowItWorks/>
       <Footer/>

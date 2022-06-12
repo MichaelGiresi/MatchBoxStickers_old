@@ -1,10 +1,11 @@
 .footer {
-  background-color: #e6d7b0;
+  background-image: url(../../assets/creamTexture.jpeg);
   z-index: -1;
 }
 
 .footer-container {
   background-color: black;
+  background-image: url(../../assets/footerTexture.jpeg);
   width: 100%;
   height: 300px;
   border-top-left-radius: 25px;
@@ -17,14 +18,46 @@
       justify-content: space-around;
 }
 
+.footer-inner-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 0 2% 0 2%;
+  width: 100%;
+  max-width: 1600px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media (min-width: 1600px) {
+  .footer-inner-container {
+    margin: 0 auto 0 auto;
+  }
+}
+
 .footer-mbs-container {
   margin-top: 60px;
 }
 
+@media (max-width: 600px) {
+  .footer-mbs-container {
+    display: none;
+  }
+}
+
 .footer-shop-container {
   margin-top: 60px;
-  color: #e6d7b0;
+  color: white;
   line-height: 2;
+}
+
+.about-about {
+  font-family: "Barlow";
 }
 
 .footer-about-container {
@@ -35,23 +68,53 @@
 
 .footer-social-container {
   margin-top: 60px;
-  color: #e6d7b0;
+  color: white;
+}
+
+.footer-social-inner-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media (min-width: 600px) {
+  .footer-social-inner-container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
 }
 
 .footer-mbs {
-  -webkit-filter: invert(96%) sepia(7%) saturate(1412%) hue-rotate(337deg) brightness(97%) contrast(86%);
-          filter: invert(96%) sepia(7%) saturate(1412%) hue-rotate(337deg) brightness(97%) contrast(86%);
+  color: white;
+  background-color: white;
   margin-top: 9px;
 }
 
 .shop-title {
   color: white;
   margin-bottom: 20px;
+  font-family: 'Allerta Stencil', sans-serif;
 }
 
 .about-title {
   color: white;
   margin-bottom: 20px;
+  font-family: 'Allerta Stencil', sans-serif;
+}
+
+.footer-about-container div {
+  color: white;
+}
+
+.footer-social {
+  color: white;
+  font-family: 'Allerta Stencil', sans-serif;
 }
 
 .insta {
@@ -71,5 +134,9 @@
 
 .google {
   font-size: 30px;
+}
+
+.titles-styles {
+  font-family: 'Barlow';
 }
 /*# sourceMappingURL=footer.css.map */

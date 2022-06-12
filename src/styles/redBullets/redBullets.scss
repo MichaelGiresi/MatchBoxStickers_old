@@ -1,11 +1,14 @@
 .redBullets-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     max-width: 1000px;
     // border: black solid 1px;
-    margin: 0 auto 70px auto;
+    margin: 0 auto 0 auto;
     background-color: #fff;
+    font-family: 'Barlow';
+    font-weight: 300;
+
 }
 
 .redBullets-redCircle {
@@ -19,18 +22,29 @@
 .redBullets-container1 {
     display: flex;
     flex-direction: row;
+    margin-left: 2.2%;
+    // justify-content: center;
     // border: black 1px solid;
 
 }
 .redBullets-container2 {
-    display: flex;
+    display: none;
     flex-direction: row;
+    
     // border: black 1px solid;
+
+    @media(min-width: 780px) {
+        display: flex;
+    }
+
 
 }
 .redBullets-container3 {
-    display: flex;
+    display: none;
     flex-direction: row;
     // border: black 1px solid;
-
+    margin-right: 2.6%;
+    @media(min-width: 430px) {
+        display: flex;
+    }
 }

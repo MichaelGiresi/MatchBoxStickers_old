@@ -6,33 +6,39 @@ const Footer = () => {
   return (
     <div className='footer'>
       <div className='footer-container'>
+        <div className='footer-inner-container'>
 
       <div className='footer-mbs-container'><img className='footer-mbs' src={mbsSmall}/></div>
       <div className='footer-shop-container'>
         <div className='shop-title'>SHOP</div>
-        <div>DROPS</div>
-        <div>MERCH</div>
-        <div>ALL</div>
+        <div classList="titles-styles" >Drops</div>
+        <div classList="titles-styles" >Merch</div>
+        <div classList="titles-styles" >All</div>
       </div>
       <div className='footer-about-container'>
         <div className='about-title'>ABOUT</div>
-        <div>ABOUT</div>
-        <div>PRIVACY POLICY</div>
-        <div>TERMS & CONDITIONS</div>
-        <div>CONTACT US</div>
+        {/* <div className='about-about'>ABOUT</div> */}
+        <div className='about-about'>Privacy Policy</div>
+        <div className='about-about'>Terms & Conditions</div>
+        <div className='about-about'>Contact Us</div>
       </div>
       <div className='footer-social-container'>
-        <div>SOCIAL
+        <div className='footer-social'>SOCIAL
         </div>
         <br/>
         <br/>
+        <div className='footer-social-inner-container'>
+
           <FaInstagram className='insta' />
           <FaTwitter className='twitter'/>
           <FaFacebook className='facebook'/>
           <FaGoogle className='google'/>
+        </div>
         
         
       </div>
+        </div>
+
       </div>
     </div>
   )

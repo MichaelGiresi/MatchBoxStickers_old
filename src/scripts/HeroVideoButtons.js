@@ -1,8 +1,6 @@
 import React, {useState, useEffect, useRef } from 'react'
 import video from '../assets/video.mp4'
-// import { Player } from 'video-react'
 import VideoPlayer from './videoPlayer'
-import App from '../App.css'
 
 const HeroVideoButtons = () => {
 
@@ -89,7 +87,9 @@ useEffect(() => {
 
 
 
-        <video src={video} 
+        <video 
+               className="video"
+               src={video} 
                ref={videoElement}
                onClick={togglePlay}
                onTimeUpdate={handleOnTimeUpdate}
@@ -97,7 +97,10 @@ useEffect(() => {
                autoPlay
                loop
                />
-               <input type='range' 
+               <div className='video-controls'>
+               <input 
+                      className="video-slider"
+                      type='range' 
                       min="0"
                       max="100"
                       value={playerState.progress}
@@ -105,6 +108,7 @@ useEffect(() => {
                         />
 
               <select
+                className="video-speed-select"
                 value={playerState.speed}
                 onChange= {(e) => handleVideoSpeed(e)}>
                   <option value="0.50">0.50</option>
@@ -112,16 +116,8 @@ useEffect(() => {
                   <option value="1.25">1.25</option>
                   <option value="2">2</option>
                 </select>
-                      <button onClick={toggleMute}></button>
-
-        {/* <video      id="videoid"
-                    controls 
-                    // src={BigSur}
-                    autoPlay 
-                    muted
-                    loop> */}
-                      {/* <source id='videosource' src={BigSur}></source> */}
-                    {/* </video> */}
+                      <button className="video-mute-toggle" onClick={toggleMute}>Mute</button>
+                      </div>
       </div>
     </div>
   )

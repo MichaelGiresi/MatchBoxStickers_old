@@ -1,41 +1,60 @@
 .mbsmerch-container {
     width: 100%;
     background-color: rgba(255, 255, 255, 255);
-    
+//    border: 1px black solid; 
+    height: 100vh;
+    min-height: 900px;
+    max-height: 1100px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    text-align: center;
+    max-width: 1600px;
+    margin: 0 auto 0 auto;
     
 }
 
 .mbsmerch-tiles-container {
-    width: 82%;
-    height: 600px;
+    width: 95%;
+    height: 100%;
     
     margin-bottom: 130px;
     display: flex;
+    // margin: 0 2% 130px 2%;
 }
 
 .mbsmerch-tiles-box-container1 {
-    width: 50%;
+    width: 100%;
     height: 100%;
     border-radius: 10px;
     
     display: flex;
     justify-content: center;
     
+    @media (min-width: 654px) {
+        width: 50%;
+    }
+
     
 }
 .mbsmerch-tiles-box-container2 {
-    width: 24%;
+    width: 50%;
     background-color: white;
     height: 100%;
     margin-left: 1%;
     border-radius: 10px;
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: space-between;
+
+    @media(min-width: 654px) {
+        display: flex;
+    }
+
+    @media (min-width: 800px) {
+        width: 24%;
+    }
     
     
 }
@@ -45,9 +64,12 @@
     height: 100%;
     margin-left: 1%;
     border-radius: 10px;
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: space-between;
+    @media (min-width: 800px){
+        display: flex;
+    }
 }
 
 
@@ -112,5 +134,32 @@
 
 .mbsmerch-title{
     margin-bottom: 90px;
-    font-size: 50px;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-family: 'Allerta Stencil', sans-serif;
+    margin-top: 140px;
+
 }
+
+.mbsmerch-box1-btn {
+    // height: 50px;
+  // width: 250px;
+  width: 60%;
+  height: 8%;
+  border-radius: 5px;
+  // background-color: black;
+  background-image: (url('../../assets/footerTexture.jpeg'));
+  color: white;
+  // font-weight: ;
+  letter-spacing: 2px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
+  border: none;
+  border-width: 0px;
+  font-family: 'Allerta Stencil', sans-serif;
+  font-size: 15px;
+
+  @media (min-width: 324px) {
+      font-size: 20px;
+  }
+}
+

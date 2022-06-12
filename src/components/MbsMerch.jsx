@@ -2,7 +2,7 @@ import React from 'react'
 import mbsMerch from '../styles/mbsMerch/mbsMerch.css'
 const MbsMerch = () => {
   return (
-    <div>
+    <div className='mbsmerch'>
       <div className="mbsmerch-container">
         <h1 className='mbsmerch-title'>MATCHBOX STICKER MERCH</h1>
         <div className="mbsmerch-tiles-container">
