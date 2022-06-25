@@ -110,16 +110,16 @@ useEffect(() => {
 
               <div className='video-controls'>
 
-                <input 
+                {/* <input 
                 className="video-slider"
                 type='range' 
                 min="0"
                 max="100"
                 value={playerState.progress}
                 onChange={(e) => handleVideoProgress(e)}
-                />
+                /> */}
 
-                <select
+                {/* <select
                 className="video-speed-select"
                 value={playerState.speed}
                 onChange= {(e) => handleVideoSpeed(e)}
@@ -130,7 +130,7 @@ useEffect(() => {
                 <option value="1.25">1.25</option>
                 <option value="2">2</option>
 
-                </select>
+                </select> */}
 
                 <button className="video-mute-toggle" onClick={toggleMute}>Mute</button>
 
