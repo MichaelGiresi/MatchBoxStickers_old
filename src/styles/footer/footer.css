@@ -11,29 +11,18 @@
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
   z-index: 1;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
 }
 
 .footer-inner-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
   margin: 0 2% 0 2%;
   width: 100%;
   max-width: 1600px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
-
 @media (min-width: 1600px) {
   .footer-inner-container {
     margin: 0 auto 0 auto;
@@ -43,7 +32,6 @@
 .footer-mbs-container {
   margin-top: 60px;
 }
-
 @media (max-width: 600px) {
   .footer-mbs-container {
     display: none;
@@ -70,23 +58,13 @@
   margin-top: 60px;
   color: white;
 }
-
 .footer-social-inner-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
-
 @media (min-width: 600px) {
   .footer-social-inner-container {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    flex-direction: row;
   }
 }
 
@@ -99,13 +77,13 @@
 .shop-title {
   color: white;
   margin-bottom: 20px;
-  font-family: 'Allerta Stencil', sans-serif;
+  font-family: "Allerta Stencil", sans-serif;
 }
 
-.about-title {
+.about-title-footer {
   color: white;
   margin-bottom: 20px;
-  font-family: 'Allerta Stencil', sans-serif;
+  font-family: "Allerta Stencil", sans-serif;
 }
 
 .footer-about-container div {
@@ -114,7 +92,7 @@
 
 .footer-social {
   color: white;
-  font-family: 'Allerta Stencil', sans-serif;
+  font-family: "Allerta Stencil", sans-serif;
 }
 
 .insta {
@@ -137,6 +115,5 @@
 }
 
 .titles-styles {
-  font-family: 'Barlow';
-}
-/*# sourceMappingURL=footer.css.map */
+  font-family: "Barlow";
+}/*# sourceMappingURL=footer.css.map */

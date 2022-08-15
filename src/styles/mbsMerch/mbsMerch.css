@@ -1,22 +1,13 @@
 .mbsmerch-container {
   width: 100%;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   height: 100vh;
   min-height: 900px;
   max-height: 1100px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
   max-width: 1600px;
   margin: 0 auto 0 auto;
@@ -26,8 +17,6 @@
   width: 95%;
   height: 100%;
   margin-bottom: 130px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -35,14 +24,9 @@
   width: 100%;
   height: 100%;
   border-radius: 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
-
 @media (min-width: 654px) {
   .mbsmerch-tiles-box-container1 {
     width: 50%;
@@ -56,23 +40,14 @@
   margin-left: 1%;
   border-radius: 10px;
   display: none;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-direction: column;
+  justify-content: space-between;
 }
-
 @media (min-width: 654px) {
   .mbsmerch-tiles-box-container2 {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
 }
-
 @media (min-width: 800px) {
   .mbsmerch-tiles-box-container2 {
     width: 24%;
@@ -86,19 +61,11 @@
   margin-left: 1%;
   border-radius: 10px;
   display: none;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-direction: column;
+  justify-content: space-between;
 }
-
 @media (min-width: 800px) {
   .mbsmerch-tiles-box-container3 {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
 }
@@ -106,8 +73,8 @@
 .mbsmerch-box1-btn {
   width: 52%;
   height: 12%;
-  background-color: black;
-  color: #e6d7b0;
+  background-color: rgb(0, 0, 0);
+  color: rgb(230, 215, 176);
   font-size: 130%;
   border-radius: 10px;
   border-width: 0px;
@@ -117,21 +84,15 @@
 .mbsmerch-box1 {
   width: 100%;
   background-color: rgba(230, 215, 176, 0.35);
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   border-radius: 10px;
 }
 
 .mbsmerch-box2 {
   width: 100%;
-  background-color: #e6d7b0;
+  background-color: rgb(230, 215, 176);
   opacity: 0.35;
   height: 56%;
   border-radius: 10px;
@@ -165,7 +126,7 @@
   margin-bottom: 90px;
   font-size: 30px;
   letter-spacing: 2px;
-  font-family: 'Allerta Stencil', sans-serif;
+  font-family: "Allerta Stencil", sans-serif;
   margin-top: 140px;
 }
 
@@ -176,17 +137,14 @@
   background-image: url("../../assets/footerTexture.jpeg");
   color: white;
   letter-spacing: 2px;
-  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
-          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
   border: none;
   border-width: 0px;
-  font-family: 'Allerta Stencil', sans-serif;
+  font-family: "Allerta Stencil", sans-serif;
   font-size: 15px;
 }
-
 @media (min-width: 324px) {
   .mbsmerch-box1-btn {
     font-size: 20px;
   }
-}
-/*# sourceMappingURL=mbsMerch.css.map */
+}/*# sourceMappingURL=mbsMerch.css.map */

@@ -4,29 +4,18 @@
   max-height: 70px;
   min-height: 50px;
   margin: 0 auto 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-direction: row;
+  justify-content: space-between;
   width: 100%;
   color: #ffffff;
 }
 
 .slider {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   /* height: 100vh; */
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   /* background-color: #e6d7b0; */
   max-width: 1600px;
   margin: 0 auto 0 auto;
@@ -35,8 +24,7 @@
 
 .slide {
   opacity: 0;
-  -webkit-transition-duration: 1s ease;
-          transition-duration: 1s ease;
+  transition-duration: 1s ease;
 }
 
 .slide.active {
@@ -74,7 +62,7 @@
   font-size: 13px;
   margin: 15px 0 0 0;
   font-weight: 600;
-  font-family: 'Barlow';
+  font-family: "Barlow";
   /* font-weight: 600;  */
 }
 
@@ -85,19 +73,11 @@
 
 .carousel-slideOne-styles {
   /* background-color: aqua; */
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
-  font-family: 'Barlow';
+  font-family: "Barlow";
   font-weight: 400;
   font-size: 300px;
-}
-/*# sourceMappingURL=navCarousel.css.map */
+}/*# sourceMappingURL=navCarousel.css.map */

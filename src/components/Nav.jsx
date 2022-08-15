@@ -5,26 +5,24 @@ import nav from '../styles/nav/nav.css'
 const Nav = () => {
   const [about, setAbout] = useState(true)
 
+  const AboutPage = () => {
 
-
-
-const AboutPage = () => {
-  const aboutId = document.getElementById('aboutId')
+    const aboutId = document.getElementById('aboutId')
   
-  if(about) {
-    setAbout(false)
-    console.log(about)
-  } else {
-    setAbout(true)
-    console.log(about)
-  }
+    if(about) {
+      setAbout(false)
+      console.log(about)
+    } else {
+      setAbout(true)
+      console.log(about)
+    }
 
-  if(about) {
-    aboutId.classList.add('about-page-active')
-  } else {
-    aboutId.classList.remove('about-page-active')
+    if(about) {
+      aboutId.classList.add('about-page-active')
+    } else {
+      aboutId.classList.remove('about-page-active')
+    }
   }
-}
 
 
 
@@ -41,13 +39,12 @@ const AboutPage = () => {
       <div className='nav-container'>
         <div className='nav-about'>
           <div className='nav-about-title' onClick={() => {AboutPage()}}>ABOUT THE PROJECT</div>
-          </div>
-        <div className='nav-img'><img src={mbsSmall}/></div>
-
-        <div className='nav-account-cart-container'>
-            <div className='nav-account'>SHOP ALL</div>
         </div>
-    </div>
+        <div className='nav-img'><img src={mbsSmall}/></div>
+        <div className='nav-account-cart-container'>
+          <div className='nav-account'>SHOP ALL</div>
+        </div>
+      </div>
     </div>
   )
 }

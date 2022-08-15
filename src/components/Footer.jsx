@@ -16,7 +16,7 @@ const Footer = () => {
         <div classList="titles-styles" >All</div>
       </div>
       <div className='footer-about-container'>
-        <div className='about-title'>ABOUT</div>
+        <div className='about-title-footer'>ABOUT</div>
         {/* <div className='about-about'>ABOUT</div> */}
         <div className='about-about'>Privacy Policy</div>
         <div className='about-about'>Terms & Conditions</div>

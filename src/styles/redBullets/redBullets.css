@@ -1,17 +1,11 @@
 .redBullets-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  flex-direction: row;
+  justify-content: space-around;
   max-width: 1000px;
   margin: 0 auto 0 auto;
   background-color: #fff;
-  font-family: 'Barlow';
+  font-family: "Barlow";
   font-weight: 300;
 }
 
@@ -24,46 +18,28 @@
 }
 
 .redBullets-container1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
   margin-left: 2.2%;
 }
 
 .redBullets-container2 {
   display: none;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
 }
-
 @media (min-width: 780px) {
   .redBullets-container2 {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
 }
 
 .redBullets-container3 {
   display: none;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
   margin-right: 2.6%;
 }
-
 @media (min-width: 430px) {
   .redBullets-container3 {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
-}
-/*# sourceMappingURL=redBullets.css.map */
+}/*# sourceMappingURL=redBullets.css.map */
