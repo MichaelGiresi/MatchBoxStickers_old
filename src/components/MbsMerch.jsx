@@ -1,4 +1,3 @@
-import React from 'react'
 import mbsMerch from '../styles/mbsMerch/mbsMerch.css'
 const MbsMerch = () => {
   return (
