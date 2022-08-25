@@ -90,7 +90,7 @@
 }
 
 .about-page {
-  display: none;
+  visibility: hidden;
   height: 100vh;
   width: 100vw;
   background-color: black;
@@ -101,12 +101,13 @@
   opacity: 0.85;
   color: white;
   flex-direction: column;
-  -webkit-animation: about 1s;
-          animation: about 1s;
+  transition: visibility 0.3s, opacity 0.3s ease-in-out;
 }
 
 .about-page-active {
-  display: flex;
+  visibility: visible;
+  opacity: 0.8;
+  cursor: pointer;
 }
 
 @-webkit-keyframes about {
