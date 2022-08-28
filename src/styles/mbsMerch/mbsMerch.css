@@ -1,9 +1,5 @@
 .mbsmerch-container {
-  width: 100%;
   background-color: rgb(255, 255, 255);
-  height: 100vh;
-  min-height: 900px;
-  max-height: 1100px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -131,7 +127,7 @@
   font-size: 30px;
   letter-spacing: 2px;
   font-family: "Allerta Stencil", sans-serif;
-  margin-top: 140px;
+  margin-top: 60px;
 }
 
 .mbsmerch-box1-btn {

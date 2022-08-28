@@ -1,10 +1,5 @@
 .mbsmerch-container {
-    width: 100%;
     background-color: rgba(255, 255, 255, 255);
-//    border: 1px black solid; 
-    height: 100vh;
-    min-height: 900px;
-    max-height: 1100px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -12,14 +7,12 @@
     text-align: center;
     max-width: 1600px;
     margin: 0 auto 0 auto;
-    
 }
 
 .mbsmerch-tiles-container {
     
     margin-bottom: 130px;
     display: flex;
-    // margin: 0 2% 130px 2%;
 }
 
 .mbsmerch-tiles-box-container1 {
@@ -140,7 +133,8 @@
     font-size: 30px;
     letter-spacing: 2px;
     font-family: 'Allerta Stencil', sans-serif;
-    margin-top: 140px;
+    // margin-top: 140px;
+    margin-top: 60px;
 
 }
 
