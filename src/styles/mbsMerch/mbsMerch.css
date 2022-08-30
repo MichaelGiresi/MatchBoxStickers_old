@@ -28,8 +28,20 @@
 }
 @media (min-width: 654px) {
   .mbsmerch-tiles-box-container1 {
+    width: 300px;
+    height: 300px;
+  }
+}
+@media (min-width: 1024px) {
+  .mbsmerch-tiles-box-container1 {
+    width: 400px;
+    height: 400px;
+  }
+}
+@media (min-width: 1440px) {
+  .mbsmerch-tiles-box-container1 {
     width: 500px;
-    height: 350px;
+    height: 500px;
   }
 }
 
@@ -46,11 +58,20 @@
 @media (min-width: 654px) {
   .mbsmerch-tiles-box-container2 {
     display: flex;
+    width: 180px;
+    height: 300px;
   }
 }
-@media (min-width: 800px) {
+@media (min-width: 1024px) {
   .mbsmerch-tiles-box-container2 {
-    width: 24%;
+    width: 300px;
+    height: 400px;
+  }
+}
+@media (min-width: 1440px) {
+  .mbsmerch-tiles-box-container2 {
+    width: 300px;
+    height: 500px;
   }
 }
 
@@ -64,9 +85,17 @@
   flex-direction: column;
   justify-content: space-between;
 }
-@media (min-width: 800px) {
+@media (min-width: 1024px) {
   .mbsmerch-tiles-box-container3 {
     display: flex;
+    width: 300px;
+    height: 400px;
+  }
+}
+@media (min-width: 1440px) {
+  .mbsmerch-tiles-box-container3 {
+    width: 300px;
+    height: 500px;
   }
 }
 
