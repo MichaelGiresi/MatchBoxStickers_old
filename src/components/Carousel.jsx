@@ -3,9 +3,6 @@ import AwesomeSlider from 'react-awesome-slider';
 import 'react-awesome-slider/dist/styles.css';
 import navCarousel from '../styles/navCarousel/navCarousel.css'
 
-// import '../index.css';
-
-
 const Carousel = () => {
   return <div>
 
