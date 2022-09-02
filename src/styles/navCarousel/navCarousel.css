@@ -13,10 +13,8 @@
 
 .slider {
   display: flex;
-  /* height: 100vh; */
   display: flex;
   justify-content: space-between;
-  /* background-color: #e6d7b0; */
   max-width: 1600px;
   margin: 0 auto 0 auto;
   width: 100%;
@@ -63,7 +61,6 @@
   margin: 15px 0 0 0;
   font-weight: 600;
   font-family: "Barlow";
-  /* font-weight: 600;  */
 }
 
 .carousel-p-styles {
@@ -72,7 +69,6 @@
 }
 
 .carousel-slideOne-styles {
-  /* background-color: aqua; */
   display: flex;
   flex-direction: column;
   justify-content: center;

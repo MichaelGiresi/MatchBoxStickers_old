@@ -108,6 +108,7 @@
   visibility: visible;
   opacity: 0.8;
   cursor: pointer;
+  text-align: center;
 }
 
 @-webkit-keyframes about {
@@ -151,7 +152,6 @@
 
 .about-info {
   font-size: 40px;
-  width: 77%;
   text-align: center;
   line-height: 50px;
   font-weight: 400;
