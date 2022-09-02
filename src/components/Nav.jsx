@@ -39,14 +39,13 @@ const Nav = () => {
       {/* Nav Start */}
       <nav className='nav-container'>
         <ul className='nav-container'>
-
-        <li className='nav-about'>
-          <a className='nav-about-title' onClick={() => {AboutPage()}}>ABOUT THE PROJECT</a>
-        </li>
-        <li className='nav-img'><img src={mbsSmall}/></li>
-        <li className='nav-account-cart-container'>
-          <a className='nav-account'>SHOP ALL</a>
-        </li>
+          <li className='nav-about'>
+            <a className='nav-about-title' onClick={() => {AboutPage()}}>ABOUT THE PROJECT</a>
+          </li>
+          <li className='nav-img'><img src={mbsSmall}/></li>
+          <li className='nav-account-cart-container'>
+            <a className='nav-account'>SHOP ALL</a>
+          </li>
         </ul>
       </nav>
     </div>
